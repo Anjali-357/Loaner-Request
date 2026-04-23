@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="5a8469d1251003107f4463cc5d36719b" extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_r_0_loaner_request" type="collection"/>
+    <element db_object_id="5a8469d1251003107f4463cc5d36719b" extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_r_0_loaner_request" type="collection">
+        <element label="Pick up reminder" max_length="255" name="pick_up_reminder" type="glide_date_time"/>
+    </element>
 </database>
